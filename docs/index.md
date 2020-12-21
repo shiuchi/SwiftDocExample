@@ -1,4 +1,4 @@
 # Types
 
-  - [ExampleA](/ExampleA)
-  - [ExampleB](/ExampleB)
+  - [ExampleA](./ExampleA)
+  - [ExampleB](./ExampleB)
