@@ -1,8 +1,7 @@
 ROOT := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
 SCRIPTS := $(ROOT)/scripts
-POD := $(ROOT)/Pods
-TOOLS := $(ROOT)/Tools
+
 
 ## ********** Set up **********
 .PHONY: bootstrap
