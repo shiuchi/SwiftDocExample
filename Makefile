@@ -10,3 +10,10 @@ bootstrap: brew-formula-install
 .PHONY: brew-formula-install
 brew-formula-install:
 	which brew && brew bundle --no-lock
+
+
+## ********** document **********
+
+.PHONY: doc
+doc: 
+	$(SCRIPTS)/swiftdoc.sh
