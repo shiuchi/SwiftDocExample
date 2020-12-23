@@ -16,3 +16,5 @@ if ! $(which swift-doc >/dev/null 2>&1); then
 fi
 
 swift doc generate $TARGET_DIR_NAME --module-name $MODULE_NAME --output $GENERATE_DIR_NAME --format $FORMAT --base-url $BASE_URL
+
+mv $GENERATE_DIR_NAME/Home.md $GENERATE_DIR_NAME/index.md 
